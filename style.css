@@ -1,0 +1,43 @@
+.title{
+    margin: 10px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #B1B2FF;
+}
+
+.description{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #D2DAFF;
+}
+
+.input-section{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #EEF1FF;
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+#output-section{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#EEF1FF ;
+}
+
+#output-section strong{
+    text-align: center;
+}
+footer{
+    padding: 10px;
+}

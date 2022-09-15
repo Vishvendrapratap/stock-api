@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1> Stock Overview </h1>
+            <p>Get stocks info at one click!</p>
+        </div>
+        <div class="description">
+            <strong>
+                Detail about this page:
+            </strong>
+            <p>
+                Are you frusted by searching companies overview which are publically listed but you arent able
+                to get at one place, then this page will solve your problem. <br>
+                This page is designed by <b>Murgesh</b> using alphavantage stocks api. You will get comapny overview
+                at one click.
+            </p>
+
+            <strong>
+                How to use?
+            </strong>
+            <p>
+                Simply write symbol for company which you want overview in below box and click on submit button.
+            </p>
+
+            <strong>
+                Limitation:
+            </strong>
+            <p>
+                As of now only US stocks available but we will add more soon. 
+            </p>
+        </div>
+
+        <div class="input-section">
+            <strong>
+                Please write symbol below (For ex: IBM):
+            </strong>
+            <input class="input-group" id="inputBox">
+            <button class="btn btn-primary" onclick="overviewFun()">Submit</button>
+        </div>
+
+        <div id="output-section">
+            <!-- Here stocks overview will be shown -->
+        </div>
+        <footer>
+            Page designed by <a href="https://github.com/murgesh-ekunde">Murgesh</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
