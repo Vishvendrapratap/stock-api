@@ -8,7 +8,7 @@ async function overviewFun(){
         let response = await fetch(`https://www.alphavantage.co/query?function=OVERVIEW&symbol=${input}&apikey=8I65S9XII47NTX43`)
     const data = await response.json();
 
-    // console.log(data)
+    console.log(data)
 
     // getting output to dom
     output.innerHTML=`
